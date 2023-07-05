@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSITE</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+    body {
+      font-family: "Poppins", sans-serif;
+      height: 100vh;
+      width: 100vw;
+      background-color: white;
+      overflow: hidden;
+    }
+    nav {
+      margin: 10px 35px 10px 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+    li {
+      list-style: none;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .a {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      gap: 75px;
+    }
+    span {
+      background-color: #fff;
+      color: rgb(51, 13, 199);
+    }
+    button {
+      font-family: "Poppins", sans-serif;
+      font-size: x-small;
+      font-weight: 600;
+      background-color: rgb(51, 13, 199);
+      padding: 8px 15px;
+      border: 1px transparent;
+      border-radius: 5px;
+      color: #fff;
+    }
+    .b {
+      width: 32%;
+      margin-left: 50px;
+      margin-top: 140px;
+    }
+    .text {
+      line-height: 65px;
+      font-size: 3.5em;
+      font-weight: 550;
+    }
+    p {
+      line-height: 20px;
+      font-size: smaller;
+      font-weight: 200;
+    }
+    .btn {
+      margin-top: 80px;
+    }
+    .img {
+      margin-right: 40px;
+      height: 100%;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="a">
+          <img src="assets/Logo.png" alt="" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <button>Contact us</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="b">
+        <h1 class="text">
+          We Help You <br />
+          <span>Crush</span> Your <br />Competition
+        </h1>
+        <p>
+          Build trust to connect your brand to billions of users and grow your
+          revenue through SEO
+        </p>
+        <button class="btn">See Our Services</button>
+      </div>
+      <div>
+        <img class="img" src="assets/Header Illustration.png" alt="img" />
+      </div>
+    </main>
+  </body>
+</html>
